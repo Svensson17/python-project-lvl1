@@ -1,12 +1,11 @@
-name: Super-Linter
-
+name: Linter
 # Run this workflow every time a new commit pushed to your repository
 on: push
 
 jobs:
   # Set the job key. The key is displayed as the job name
   # when a job name is not provided
-  super-lint:
+  lint:
     # Name the Job
     name: Lint code base
     # Set the type of machine to run on
@@ -16,16 +15,13 @@ jobs:
         python-version: [ 3.9 ]
 
     steps:
-      # Checks out a copy of your repository on the ubuntu-latest machine
       - uses: actions/checkout@v2
       - name: Set up Python ${{ matrix.python-version }}
         uses: actions/setup-python@v2
 
-      # Runs the Super-Linter action
       - name: Install dependencies
-        run:
+        run: |
           pip install poetry
           make install
-
-        - name: Lint
-          run: make Lint
+      - name: Lint
+        run: make Lint
