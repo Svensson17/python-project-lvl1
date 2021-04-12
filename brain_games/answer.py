@@ -3,5 +3,5 @@ import prompt
 
 
 def answer():
-    answer = prompt.string("Your answer")
+    answer = prompt.string("Your answer: ")
     return answer

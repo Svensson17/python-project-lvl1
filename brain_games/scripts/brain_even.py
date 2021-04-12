@@ -7,16 +7,16 @@ from brain_games.welcome_user import welcome
 
 
 def main():
-    welcome()
-    question()
-    answer()
+    name = welcome()
     que = question()
     ans = answer()
     right_answer = "yes" if que % 2 == 0 else "no"
-    while right_a:
+    score = 0
+    while score < 3:
         if right_answer == ans:
-        print("Correct!")
-    else:
-        name = input()
-        print("\'yes\' is wrong answer ;(. Correct answer was 'no'.\nLet's try again, " + name + "!")
-        print("Congratulations," + name + "!")
+            print("Correct!")
+            score = score + 1
+        else:
+            print("\'yes\' is wrong answer ;(. Correct answer was 'no'.\nLet's try again, " + name + "!")
+        return
+            print("Congratulations," + name + "!")
