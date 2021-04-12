@@ -1,9 +1,5 @@
 #!/usr/bin/env python
-from brain_games.question import question
-
-from brain_games.answer import answer
-
-from brain_games.welcome_user import welcome
+from brain_games.brain_even_game import question, answer
 
 
 def main():
@@ -18,5 +14,9 @@ def main():
             score = score + 1
         else:
             print("\'yes\' is wrong answer ;(. Correct answer was 'no'.\nLet's try again, " + name + "!")
-        return
-            print("Congratulations," + name + "!")
+            return
+    print("Congratulations," + name + "!")
+
+
+if __name__ == "__main__":
+    main()
