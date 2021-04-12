@@ -6,11 +6,11 @@ from brain_games.welcome_user import welcome
 
 def main():
     name = welcome()
-    que = question()
-    ans = answer()
-    right_answer = "yes" if que % 2 == 0 else "no"
     score = 0
     while score < 3:
+        que = question()
+        ans = answer()
+        right_answer = "yes" if que % 2 == 0 else "no"
         if right_answer == ans:
             print("Correct!")
             score = score + 1
