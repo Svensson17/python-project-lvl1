@@ -6,6 +6,7 @@ from brain_games.welcome_user import welcome
 
 def main():
     name = welcome()
+    print("Answer \"yes\" if the number is even, otherwise answer \"no\".")
     score = 0
     while score < 3:
         que = question()
@@ -15,7 +16,7 @@ def main():
             print("Correct!")
             score = score + 1
         else:
-            print("\'yes\' is wrong answer ;(. Correct answer was 'no'.\nLet's try again, " + name + "!")
+            print(ans + "is wrong answer ;(. Correct answer was" + right_answer + "\nLet's try again, " + name + "!")
             return
     print("Congratulations," + name + "!")
 
