@@ -13,14 +13,16 @@ def main():
     print("Find the greatest common divisor of given numbers.")
     score = 0
     while score < 3:
-        que = question()
+        right_answer = str(math.gcd(*question()))
         ans = answer()
-        right_answer = math.gcd(question())
         if right_answer == ans:
             print("Correct!")
             score = score + 1
         else:
-            print(ans + "is wrong answer ;(. Correct answer was" + right_answer + "\nLet's try again, " + name + "!")
+            print("{0} is wrong answer ;(. Correct answer was {1} \nLet's try again, {2}!".format(
+            ans,
+            right_answer,
+            name))
             return
     print("Congratulations," + name + "!")
 
