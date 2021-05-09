@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 from brain_games.brain_even_game import answer
 
 from brain_games.welcome_user import welcome

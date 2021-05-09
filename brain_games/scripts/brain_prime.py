@@ -1,4 +1,6 @@
 #!/usr/bin/env python
+from brain_games.brain_prime_game import is_prime
+
 from brain_games.brain_even_game import question, answer
 
 from brain_games.welcome_user import welcome
@@ -6,17 +8,18 @@ from brain_games.welcome_user import welcome
 
 def main():
     name = welcome()
-    print("Answer \"yes\" if the number is even, otherwise answer \"no\".")
+    print("Answer \"yes\" if the number is prime. Otherwise answer \"no\".")
     score = 0
     while score < 3:
         que = question()
         ans = answer()
-        right_answer = "yes" if que % 2 == 0 else "no"
+        prime = is_prime()
+        right_answer = "yes" if que == prime else "no"
         if right_answer == ans:
             print("Correct!")
             score = score + 1
         else:
-            print("\"" + ans + "\"" + "is wrong answer ;(. Correct answer was" + right_answer + "\nLet's try again, " + name + "!")
+            print(ans + " is wrong answer ;(. Correct answer was " + right_answer + "\nLet's try again, " + name + "!")
             return
     print("Congratulations," + name + "!")
 
