@@ -1,7 +1,4 @@
-from brain_games.brain_even_game import question
-
-def is_prime():
-    num = question()
+def is_prime(num):
     if num < 2:
         return False
     divider = 2

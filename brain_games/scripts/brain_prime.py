@@ -13,13 +13,17 @@ def main():
     while score < 3:
         que = question()
         ans = answer()
-        prime = is_prime()
-        right_answer = "yes" if que == prime else "no"
+        prime = is_prime(que)
+        right_answer = "yes" if prime else "no"
         if right_answer == ans:
             print("Correct!")
             score = score + 1
         else:
-            print(ans + " is wrong answer ;(. Correct answer was " + right_answer + "\nLet's try again, " + name + "!")
+            print("{0} is wrong answer ;(. Correct answer was {1}".format(
+                ans,
+                right_answer))
+            print("Let's try again, {0}!".format(
+                name))
             return
     print("Congratulations," + name + "!")
 

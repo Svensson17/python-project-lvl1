@@ -17,7 +17,10 @@ def main():
             print("Correct!")
             score = score + 1
         else:
-            print("'" + str(ans) + "'" + " is wrong answer ;(. Correct answer was " + "'" + str(que) + "'" + "\nLet's try again, " + name + "!")
+            print("{0} is wrong answer ;(. Correct answer was {1}".format(
+                str(ans),
+                str(que)))
+            print("Let's try again, {0}!".format(name))
             return
     print("Congratulations," + name + "!")
 

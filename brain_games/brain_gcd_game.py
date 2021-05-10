@@ -1,7 +1,5 @@
 import random
 
-import prompt
-
 
 def question():
     num = random.randint(0, 100)
