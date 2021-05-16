@@ -2,6 +2,9 @@
 [![Actions Status](https://github.com/Svensson17/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/Svensson17/python-project-lvl1/actions)
 <a href="https://codeclimate.com/github/codeclimate/codeclimate/maintainability"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability" /></a>
 [![Actions Status](https://github.com/Svensson17/python-project-lvl1/workflows/Linter/badge.svg)](https://github.com/Svensson17/python-project-lvl1/actions)
+
+This is my first project on hexlet.io and in general) Here I have implemented five mini games based on mathematical questions. Examples and descriptions of it you can find below. Have a nice day)
+
 ## Start 
 ```console
 poetry install --user
@@ -22,7 +25,7 @@ An user is shown a random mathematical expression, for example 35 + 16, which ne
 
 [![asciicast](https://asciinema.org/a/0ewxXcO8NbpgVddR7N0rijFvD.svg)](https://asciinema.org/a/0ewxXcO8NbpgVddR7N0rijFvD)
 
-### Game: "Greatest common divisor": 
+### Game: "Greatest common divisor":
 ```console
 make brain-gdc
 ```
