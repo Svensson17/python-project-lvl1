@@ -21,7 +21,7 @@ def main():
                 right_answer))
             print("Let's try again, {0}!".format(name))
             return
-    print("Congratulations," + name + "!")
+    print("Congratulations, " + name + "!")
 
 
 if __name__ == "__main__":
