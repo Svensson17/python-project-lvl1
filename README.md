@@ -29,9 +29,9 @@ An user is shown a random mathematical expression, for example 72 - 41, which ne
 ```console
 make brain-gdc
 ```
-An user is shown two random numbers, for example, 25 and 50. The user needs calculate and enter the greatest common divisor of these numbers.
+An user is shown two random numbers, for example, 45 and 25. The user needs calculate and enter the greatest common divisor of these numbers.
 
-[![asciicast](https://asciinema.org/a/x2SNCQzBoC1JvYyilT8wB7vP6.svg)](https://asciinema.org/a/x2SNCQzBoC1JvYyilT8wB7vP6)
+[![asciicast](http://g.recordit.co/D0aOCv8xWE.gif)
 
 ### Game: "Arithmetic Progression":
 ```console
@@ -39,7 +39,7 @@ make brain-progression
 ```
 An user is shown a series of numbers, forming an arithmetic progression, replacing any of the numbers with two dots. The player must determine this number.
 
-[![asciicast](https://asciinema.org/a/5iKqqWDRr7IBDbwNGKexOFSZo.svg)](https://asciinema.org/a/5iKqqWDRr7IBDbwNGKexOFSZo)
+[![asciicast](http://g.recordit.co/Pqv27H4knv.gif)]
 
 ### Game: "Is it a Prime Number?":
 ```console
@@ -47,4 +47,4 @@ make brain-prime
 ```
 An user is shown a random number. The user needs to answer "yes" if the number is prime or "no" if it is not.
 
-[![asciicast](https://asciinema.org/a/ryD8HlIEGJQu1JSgcRWCLYjVN.svg)](https://asciinema.org/a/ryD8HlIEGJQu1JSgcRWCLYjVN)
+[![asciicast](http://g.recordit.co/f6Y6S5svJk.gif)]
