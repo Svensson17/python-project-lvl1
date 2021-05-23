@@ -15,7 +15,7 @@ make brain-even
 ```
 An user is shown a random number. The user needs to answer "yes" if the number is even or "no" if it is odd.
 
-[![asciicast](https://asciinema.org/a/zr1NixlMn7VTSeelRCEMBykWr.svg)](https://asciinema.org/a/zr1NixlMn7VTSeelRCEMBykWr)
+[![asciicast](http://g.recordit.co/Uetjct7nmd.gif)]
 
 ### Game: "Calculator":
 ```console
