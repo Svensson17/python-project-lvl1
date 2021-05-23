@@ -21,9 +21,9 @@ An user is shown a random number. The user needs to answer "yes" if the number i
 ```console
 make brain-calc
 ```
-An user is shown a random mathematical expression, for example 35 + 16, which needs to be calculated and written down the correct answer.
+An user is shown a random mathematical expression, for example 72 - 41, which needs to be calculated and written down the correct answer.
 
-[![asciicast](https://asciinema.org/a/0ewxXcO8NbpgVddR7N0rijFvD.svg)](https://asciinema.org/a/0ewxXcO8NbpgVddR7N0rijFvD)
+[![asciicast](http://g.recordit.co/NnfDuQEH5u.gif)]
 
 ### Game: "Greatest common divisor":
 ```console
