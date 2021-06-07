@@ -8,6 +8,7 @@ from brain_games.welcome_user import welcome
 
 def main():
     name = welcome()
+    question()
     score = 0
     while score < 3:
         ans = answer()

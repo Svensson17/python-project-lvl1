@@ -16,11 +16,10 @@ def main():
             print("Correct!")
             score = score + 1
         else:
-            print("'{0}' is wrong answer ;(. Correct answer was '{1}'".format(
+            print("'{0}' is wrong answer ;(. Correct answer was '{1}'.".format(
                 ans,
                 right_answer))
-            print("Let's try again, {0}!".format(
-                name))
+            print("Let's try again, {0}!".format(name))
             return
     print("Congratulations, " + name + "!")
 

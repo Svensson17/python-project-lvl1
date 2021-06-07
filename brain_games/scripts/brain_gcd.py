@@ -19,8 +19,7 @@ def main():
             print("'{0}' is wrong answer ;(. Correct answer was '{1}'.".format(
                 ans,
                 right_answer))
-            print("Let's try again, {0}!".format(
-                name))
+            print("Let's try again, {0}!".format(name))
             return
     print("Congratulations, " + name + "!")
 
