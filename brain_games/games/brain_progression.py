@@ -1,6 +1,9 @@
 import random
 
 
+print("What number is missing in the progression?")
+
+
 def question():
     result = []
     score = random.randint(1, 15)

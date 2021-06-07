@@ -1,6 +1,9 @@
 import random
 
 
+print("What is the result of the expression?")
+
+
 def question():
     num1 = random.randint(0, 100)
     num2 = random.randint(0, 100)

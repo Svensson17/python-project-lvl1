@@ -1,17 +1,17 @@
 #!/usr/bin/env python
-from brain_games.brain_even_game import question, answer
+from brain_games.games.brain_even import right_answer
+
+from brain_games.games.answer import answer
 
 from brain_games.welcome_user import welcome
 
 
 def main():
     name = welcome()
-    print("Answer \"yes\" if the number is even, otherwise answer \"no\".")
     score = 0
     while score < 3:
-        que = question()
         ans = answer()
-        right_answer = "yes" if que % 2 == 0 else "no"
+        right_answer = right_answer()
         if right_answer == ans:
             print("Correct!")
             score = score + 1

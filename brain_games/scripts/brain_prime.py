@@ -1,20 +1,22 @@
 #!/usr/bin/env python
-from brain_games.brain_prime_game import is_prime
+from brain_games.games.brain_prime import is_prime
 
-from brain_games.brain_even_game import question, answer
+from brain_games.games.brain_even import question
+
+from brain_games.games.answer import answer
+
+from brain_games.games.brain_prime import right_answer
 
 from brain_games.welcome_user import welcome
 
 
 def main():
     name = welcome()
-    print("Answer \"yes\" if the number is prime. Otherwise answer \"no\".")
     score = 0
     while score < 3:
         que = question()
         ans = answer()
-        prime = is_prime(que)
-        right_answer = "yes" if prime else "no"
+        right_answer = right_answer()
         if right_answer == ans:
             print("Correct!")
             score = score + 1

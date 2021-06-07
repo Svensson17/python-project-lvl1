@@ -1,14 +1,13 @@
 #!/usr/bin/env python
-from brain_games.brain_even_game import answer
-
 from brain_games.welcome_user import welcome
 
-from brain_games.brain_progression_game import question
+from brain_games.games.brain_progression import question
+
+from brain_games.games.answer import answer
 
 
 def main():
     name = welcome()
-    print("What number is missing in the progression?")
     score = 0
     while score < 3:
         right_answer = question()

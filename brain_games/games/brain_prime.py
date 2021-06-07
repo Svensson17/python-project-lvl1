@@ -1,3 +1,6 @@
+print("Answer \"yes\" if the number is prime. Otherwise answer \"no\".")
+
+
 def is_prime(num):
     if num < 2:
         return False
@@ -7,3 +10,9 @@ def is_prime(num):
             return False
         divider += 1
     return True
+
+
+def right_answer():
+    prime = is_prime()
+    right_answer = "yes" if prime else "no"
+    return right_answer

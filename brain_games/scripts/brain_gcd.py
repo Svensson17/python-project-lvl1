@@ -1,20 +1,17 @@
 #!/usr/bin/env python
-from brain_games.brain_gcd_game import question
+from brain_games.games.brain_gcd import right_answer
 
-from brain_games.brain_even_game import answer
+from brain_games.games.answer import answer
 
 from brain_games.welcome_user import welcome
-
-import math
 
 
 def main():
     name = welcome()
-    print("Find the greatest common divisor of given numbers.")
     score = 0
     while score < 3:
-        right_answer = str(math.gcd(*question()))
         ans = answer()
+        right_answer = right_answer()
         if right_answer == ans:
             print("Correct!")
             score = score + 1
