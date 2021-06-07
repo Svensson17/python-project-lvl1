@@ -10,7 +10,7 @@ def question():
     return num
 
 
-def right_answer():
+def r_answer():
     que = question()
     right_answer = "yes" if que % 2 == 0 else "no"
     return right_answer

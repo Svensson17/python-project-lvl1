@@ -12,7 +12,7 @@ def is_prime(num):
     return True
 
 
-def right_answer():
+def r_answer():
     prime = is_prime()
     right_answer = "yes" if prime else "no"
     return right_answer

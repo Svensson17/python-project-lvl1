@@ -13,6 +13,6 @@ def question():
     return num, num2
 
 
-def right_answer():
+def r_answer():
     right_answer = str(math.gcd(*question()))
     return right_answer
