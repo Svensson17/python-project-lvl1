@@ -10,9 +10,7 @@ def main():
     name = welcome()
     score = 0
     while score < 3:
-        ans = answer()
-        right_answer = question()
-        if right_answer == ans:
+        if question == answer:
             print("Correct!")
             score = score + 1
         else:

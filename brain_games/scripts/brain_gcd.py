@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-from brain_games.games.brain_gcd import r_answer
+from brain_games.games.brain_gcd import right_answer
 
 from brain_games.games.answer import answer
 
@@ -10,8 +10,6 @@ def main():
     name = welcome()
     score = 0
     while score < 3:
-        ans = answer()
-        right_answer = r_answer()
         if right_answer == ans:
             print("Correct!")
             score = score + 1

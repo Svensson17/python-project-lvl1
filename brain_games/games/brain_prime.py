@@ -9,10 +9,5 @@ def is_prime(num):
         if num % divider == 0:
             return False
         divider += 1
-    return True
-
-
-def r_answer():
-    prime = is_prime()
     right_answer = "yes" if prime else "no"
-    return right_answer
+    return True
