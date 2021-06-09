@@ -11,4 +11,5 @@ def question():
     num2 = random.randint(0, 100)
     print("Question:", num, num2)
     right_answer = str(math.gcd(*question()))
+    global right_answer
     return num, num2

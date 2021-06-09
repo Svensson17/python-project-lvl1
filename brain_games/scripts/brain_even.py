@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-from brain_games.games.brain_even import right_answer
+from brain_games.games.brain_even.question import right_answer
 
 from brain_games.games.answer import answer
 
@@ -10,7 +10,7 @@ def main():
     name = welcome()
     score = 0
     while score < 3:
-        if right_answer == answer:
+        if answer == right_answer:
             print("Correct!")
             score = score + 1
         else:

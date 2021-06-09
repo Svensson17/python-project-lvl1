@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-from brain_games.games.brain_gcd import right_answer
+from brain_games.games.brain_gcd.question import right_answer
 
 from brain_games.games.answer import answer
 

@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 from brain_games.games.answer import answer
 
-from brain_games.games.brain_prime import right_answer
+from brain_games.games.brain_prime.is_prime import right_answer
 
 from brain_games.welcome_user import welcome
 

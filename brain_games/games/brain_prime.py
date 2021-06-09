@@ -10,4 +10,5 @@ def is_prime(num):
             return False
         divider += 1
     right_answer = "yes" if True else "no"
+    global right_answer
     return True
