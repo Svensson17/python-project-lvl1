@@ -10,12 +10,12 @@ def main():
     name = welcome()
     score = 0
     while score < 3:
-        if right_answer == ans:
+        if right_answer == answer:
             print("Correct!")
             score = score + 1
         else:
             print("'{0}' is wrong answer ;(. Correct answer was '{1}'.".format(
-                ans,
+                answer,
                 right_answer))
             print("Let's try again, {0}!".format(name))
             return

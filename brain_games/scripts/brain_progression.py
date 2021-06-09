@@ -15,8 +15,8 @@ def main():
             score = score + 1
         else:
             print("'{0}' is wrong answer ;(. Correct answer was '{1}'.".format(
-                ans,
-                right_answer))
+                answer,
+                question))
             print("Let's try again, {0}!".format(name))
             return
     print("Congratulations, " + name + "!")
