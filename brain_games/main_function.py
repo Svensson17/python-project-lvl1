@@ -1,12 +1,4 @@
-#!/usr/bin/env python
-from brain_games.games.brain_even import question
-
-from brain_games.games.answer import answer
-
-from brain_games.welcome_user import welcome
-
-
-def main():
+def base():
     name = welcome()
     score = 0
     while score < 3:
@@ -22,7 +14,3 @@ def main():
             print("Let's try again, {0}!".format(name))
             return
     print("Congratulations, " + name + "!")
-
-
-if __name__ == "__main__":
-    main()
