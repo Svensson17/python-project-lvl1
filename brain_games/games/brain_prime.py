@@ -9,6 +9,6 @@ def is_prime(num):
         if num % divider == 0:
             return False
         divider += 1
-    right_answer = "yes" if True else "no"
     global right_answer
+    right_answer = "yes" if True else "no"
     return True
