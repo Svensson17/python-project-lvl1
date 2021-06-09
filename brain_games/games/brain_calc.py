@@ -10,11 +10,11 @@ def question():
     symbol = random.randint(1, 3)
     if symbol == 1:
         print("Question: " + str(num1) + " + " + str(num2))
-        right_answer = num1 + num2
+        result = num1 + num2
     elif symbol == 2:
         print("Question: " + str(num1) + " - " + str(num2))
-        right_answer = num1 - num2
+        result = num1 - num2
     elif symbol == 3:
         print("Question: " + str(num1) + " * " + str(num2))
-        right_answer = num1 * num2
-    return right_answer
+        result = num1 * num2
+    return result
