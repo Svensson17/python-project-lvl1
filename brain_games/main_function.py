@@ -8,7 +8,7 @@ def base(question):
     name = welcome()
     score = 0
     while score < 3:
-        num, right_answer = question()
+        right_answer = question()
         ans = answer()
         if ans == right_answer:
             print("Correct!")

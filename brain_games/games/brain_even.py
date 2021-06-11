@@ -8,4 +8,4 @@ def question():
     num = random.randint(0, 100)
     print("Question:", num)
     right_answer = "yes" if num % 2 == 0 else "no"
-    return num, right_answer
+    return right_answer
