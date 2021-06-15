@@ -10,7 +10,7 @@ def base(question):
     while score < 3:
         right_answer = question()
         ans = answer()
-        if ans == right_answer:
+        if right_answer == ans:
             print("Correct!")
             score = score + 1
         else:
