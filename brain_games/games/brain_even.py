@@ -5,7 +5,6 @@ RULE = "Answer \"yes\" if the number is even, otherwise answer \"no\"."
 
 
 def get_question_and_answer():
-    num = random.randint(0, 100)
-    print("Question:", num)
+    question = random.randint(0, 100)
     right_answer = "yes" if num % 2 == 0 else "no"
-    return right_answer
+    return question, right_answer
