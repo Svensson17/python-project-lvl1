@@ -4,7 +4,7 @@ import random
 RULE = "What number is missing in the progression?"
 
 
-def question():
+def get_question_and_answer():
     result = []
     score = random.randint(1, 15)
     score2 = random.randint(1, 5)

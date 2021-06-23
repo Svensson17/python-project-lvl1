@@ -6,10 +6,10 @@ from brain_games.games.answer import answer
 
 def base(game):
     name = welcome()
-    print(RULE)
+    print(game.RULE)
     score = 0
     while score < 3:
-        question,right_answer = get_question_and_answer()
+        question, right_answer = game.get_question_and_answer()
         print("Question: ", question)
         ans = answer()
         if right_answer == ans:
