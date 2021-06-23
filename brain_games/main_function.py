@@ -4,11 +4,13 @@ from brain_games.welcome_user import welcome
 from brain_games.games.answer import answer
 
 
-def base(question):
+def base(game):
     name = welcome()
+    print(RULE)
     score = 0
     while score < 3:
-        right_answer = question()
+        question,right_answer = get_question_and_answer()
+        print("Question: ", question)
         ans = answer()
         if right_answer == ans:
             print("Correct!")

@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 from brain_games.main_function import base
 
-from brain_games.games.brain_progression import question
+from brain_games.games import brain_progression
 
 
 def main():
-    base(question)
+    base(brain_progression)
 
 
 if __name__ == "__main__":
