@@ -1,7 +1,7 @@
 RULE = "Answer \"yes\" if the number is prime. Otherwise answer \"no\"."
 
 
-def is_prime(num):
+def get_question_and_answer(num):
     if num < 2:
         return False
     divider = 2
