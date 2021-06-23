@@ -10,7 +10,7 @@ def base(game):
     score = 0
     while score < 3:
         question, right_answer = game.get_question_and_answer()
-        print("Question: ", question)
+        print("Question:", question)
         ans = answer()
         if right_answer == ans:
             print("Correct!")
