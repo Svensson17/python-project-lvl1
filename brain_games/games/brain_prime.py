@@ -1,7 +1,11 @@
+import random
+
+
 RULE = "Answer \"yes\" if the number is prime. Otherwise answer \"no\"."
 
 
-def get_question_and_answer(num):
+def get_question_and_answer():
+    num = random.randint(0, 100)
     if num < 2:
         return False
     divider = 2
