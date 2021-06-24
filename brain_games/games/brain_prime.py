@@ -10,4 +10,5 @@ def get_question_and_answer(num):
             return False
         divider += 1
     right_answer = "yes" if True else "no"
-    return True, right_answer
+    question = num
+    return question, right_answer
