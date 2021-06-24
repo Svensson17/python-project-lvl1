@@ -15,5 +15,5 @@ def get_question_and_answer():
     for index, value in enumerate(result):
         if right_answer == value:
             result[index] = ".."
-    print("Question: " + " ".join(result))
-    return right_answer
+    question = " ".join(result))
+    return question, right_answer
