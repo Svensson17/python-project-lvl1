@@ -4,8 +4,7 @@ import random
 RULE = "Answer \"yes\" if the number is prime. Otherwise answer \"no\"."
 
 
-def get_question_and_answer():
-    num = random.randint(0, 100)
+def is_prime(num):
     if num < 2:
         return False
     divider = 2
@@ -13,6 +12,10 @@ def get_question_and_answer():
         if num % divider == 0:
             return False
         divider += 1
-    right_answer = "yes" if True else "no"
-    question = num
+    return True
+
+
+def get_question_and_answer():
+    question = random.randint(0, 100)
+    right_answer = "yes" if is_prime() else "no"
     return question, right_answer
